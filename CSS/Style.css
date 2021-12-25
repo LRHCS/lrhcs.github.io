@@ -20,6 +20,11 @@
     float: right;
 }
 
+
+.strich{
+    border-right: white solid 0.5px;
+}
+
 /*The titles of the Subject*/
 .fach{
     text-align: center;
