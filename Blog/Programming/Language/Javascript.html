@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" id="id1">
+<head>
+    <title>Javascript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../CSS/techblog.css">
+    <script src="../../../Javascript/JS.js"></script>
+</head>
+<body>
+
+<div class="sidenav">
+    <a href="http://localhost:63342/WEB/INDEX.html?_ijt=rcung7g0p5k6eucnfo9gmbrhdt&_ij_reload=RELOAD_ON_SAVE">Home</a>
+    <a href="#">Python</a>
+    <a href="#">C</a>
+    <a href="#">Javascript</a>
+</div>
+
+<div class="content">
+    <br>
+    <button onclick="window.print()">Print this page</button>
+    <p id="demo" ></p>
+    <button onclick="this.innerHTML=Date()">The time is?</button>
+
+    <p id="time"></p>
+
+    <h1 id="">LRHCS</h1>
+
+    <button type="button"
+            onclick="document.getElementById('id1').style.backgroundColor = 'gray'" style="background-color: #111111;color: white">
+        Gray</button>
+    <button type="button"
+            onclick="document.getElementById('id1').style.backgroundColor = 'black'" style="background-color: #111111;color: white">
+        Black</button>
+    <button type="button"
+            onclick="document.getElementById('id1').style.backgroundColor = 'white'" style="background-color: #111111;color: white">
+        White</button>
+</div>
+
+
+
+<script>
+    const rui = {
+        age : 16,
+        firstname : "Rui",
+        lastname : "Hua",
+        eyeColor : "black",
+        fullname : function(){
+            return this.firstname + " " + this.lastname
+        }
+    };
+
+    document.getElementById("demo").innerHTML = rui.fullname();
+</script>
+
+</body>
+</html>
