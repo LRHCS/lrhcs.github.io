@@ -6,7 +6,6 @@ document.getElementById("myH").innerHTML = "My First Page";
 
 // Change heading:
 document.getElementById("myH").innerHTML = "JavaScript Comments";
-// Change paragraph:
 
 
 
