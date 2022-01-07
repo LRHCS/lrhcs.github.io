@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="./CSS/Style.css">
     <link rel="icon" type="image/x-icon" href="Pictures/LOGO.png">
     <script src="Javascript/JS.js"></script>
-    <!--jQuery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha384-fuUlMletgG/KCb0NwIZTW6aMv/YBbXe0Wt71nwLRreZZpesG/N/aURjEZCG6mtYn" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -41,9 +38,15 @@
         <a class="dropbtn">Blog</a>
         <div class="dropdown-content">
             <a href="http://localhost:63342/WEB/Blog/Programming/Techblog.html?_ijt=q859aks4l6f38ct713t0pefvgl&_ij_reload=RELOAD_ON_SAVE">Tech</a>
-            <a href="http://localhost:63342/WEB/School/Mathe.html?_ijt=v4foojb3ge73bjgftbso4qvnnt&_ij_reload=RELOAD_ON_SAVE" style="width: 85%">Book Comment</a>
+            <a href="http://localhost:63342/WEB/School/Mathe.html?_ijt=v4foojb3ge73bjgftbso4qvnnt&_ij_reload=RELOAD_ON_SAVE">Book Comment</a>
         </div>
     </div>
+
+    <div class="dropdown">
+        <input type="text" id="currentDateTime" style="color: white;background-color: transparent;border: none;text-align: center; display: block;margin-right: auto;margin-left: 800px;font-size: 25px">
+    </div>
+
+
 
 
     <!--Media navigate bar-->
@@ -70,12 +73,13 @@
 
 <h1 title="Im da best"class="title"><b>LRHCS</b></h1>
 
-
-<h1 title="best"class="title2"><b>Good at Python</b></h1>
-<h1 title="Im da best"class="title2"><b>HTML</b></h1>
-
-
-
-
 </body>
 </html>
+
+<script>
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' '+time;
+    document.getElementById("currentDateTime").value = dateTime;
+</script>

@@ -11,6 +11,7 @@
     color: white;
     font-size: 150px;
     margin: auto;
+    padding-top: 400px;
     width: 50%;
     text-align: center;
 }
@@ -77,7 +78,7 @@ body{
 .main_logo:hover {
     width: 100px;
     height: 100px;
-    box-shadow: 15px 10px 1px #333333;
+    box-shadow: 15px 0px 30px #2c58aa;
     border-radius: 50%;
     transition-duration: 0.4s;
 }
