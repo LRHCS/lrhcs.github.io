@@ -22,12 +22,12 @@ body{
 }
 
 /*Css for the title*/
-.title:hover{
+.title:hover {
     color: white;
     font-size: 150px;
     margin: auto;
     width: 50%;
-    text-shadow: 1px 1px 2px gray, 0 0 25px darkcyan, 0 0 25px blue;
+    text-shadow: 1px 1px 2px gray, 0 0 25px white, 0 0 25px black;
     transition-duration: 0.7s;
     text-align: center;
 }
